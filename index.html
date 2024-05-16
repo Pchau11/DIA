@@ -39,7 +39,8 @@ var myIcon = L.icon({
 });
 //di chuyển hình ảnh 
 marker = L.marker(e.latlng, {icon: myIcon,'draggable':true}).addTo(map);
-
+// hiện popup 
+maker.bindPopup("Hello VN");
 }
 
 map.on('click', onMapClick);
