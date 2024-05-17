@@ -42,7 +42,7 @@ function onMapClick(e) {
     radius: 500
 }).addTo(map);
 
-circle.bindPopup("DiAn ne`.");
+circle.bindPopup("blabla ne`.");
 
 }
 
