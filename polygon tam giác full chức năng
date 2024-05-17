@@ -51,7 +51,7 @@ function onMapClick(e) {
       toado[toado.length-1]
     ],).addTo(map);
     }
-    polygon.bindPopup("DiAn ne`.");
+    polygon.bindPopup("blabla ne`.");
 }
 map.on('click', onMapClick);
 
